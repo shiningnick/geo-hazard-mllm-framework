@@ -1,0 +1,18 @@
+# 核心依赖
+openpyxl>=3.1.0
+pandas>=2.0.0
+Pillow>=10.0.0
+exifread>=3.0.0
+openai>=1.0.0
+requests>=2.31.0
+httpx>=0.27.0
+
+# Windows：从照片属性读取经纬度（可选，Linux 可仅用 EXIF）
+pywin32>=306; sys_platform == 'win32'
+
+# 地图可视化（GUI 风险分布图）
+matplotlib>=3.7.0
+geopandas>=0.14.0
+contextily>=1.4.0
+matplotlib-scalebar>=0.8.0
+pyproj>=3.6.0

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# 输出与缓存
+output/*
+!output/.gitkeep
+*.xlsx
+few_shot_cache.json
+
+# 本地配置（含密钥）
+config_local.py
+
+# IDE
+.idea/
+.vscode/
+.cursor/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+input/*.jpg
+input/*.png
